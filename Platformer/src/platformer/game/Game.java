@@ -13,6 +13,7 @@ import platformer.game.utilities.maths.Rectangle.Rect2f;
 import platformer.game.utilities.maths.Vector.Vec2f;
 
 public class Game{
+	int a = 1;
 	public Window window;
 	public InputHandler inputHandler;
 	public Resources resources;

@@ -8,6 +8,7 @@ import platformer.game.utilities.maths.Rectangle.Rect2f;
 import platformer.game.utilities.maths.Vector.Vec2f;
 
 public class Player extends Entity{
+	int j = 0;
 	Level curLevel;
 	boolean moving;
 	double timeAnimation;
