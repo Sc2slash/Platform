@@ -25,13 +25,13 @@ public class Game{
 	public Player testEntity;
 	public Game(){
 		resources = new Resources();
-		window = new Window("Plaftormer", 1200,900, 1, false, resources.icon);
+		window = new Window("Plaftormer", 1200,900, 1, false, null);
 		running = false;
 		debugMode = false;
 		mainTimer = new FPSTimer();
-		curLevel = new Level(new Tileset(resources.tileset, 70, 70, 2), "Resources/Levels/map.txt", this, 120);
-		cameraLocation = new Vec2f(0,0);
-		testEntity = new Player(this, resources.character, new Rect2f(200,0,70,96), new Vec2f(0,0));
+//		curLevel = new Level(new Tileset(resources.tileset, 70, 70, 2), "Resources/Levels/map.txt", this, 120);
+//		cameraLocation = new Vec2f(0,0);
+//		testEntity = new Player(this, resources.character, new Rect2f(200,0,70,96), new Vec2f(0,0));
 		inputHandler = new InputHandler(this);
 		start();
 	}
@@ -57,9 +57,9 @@ public class Game{
 		g.setColor(Color.black);
 		g.fillRect(0, 0, window.getWidth(), window.getHeight());
 		
-		//Draw Stuff
-		curLevel.draw(g);
-		testEntity.draw(g);
+//		//Draw Stuff
+//		curLevel.draw(g);
+//		testEntity.draw(g);
 		g.dispose();
 		bs.show();
 	}

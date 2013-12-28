@@ -11,11 +11,11 @@ public class Resources {
 	public Sound test;
 	public BufferedImage character;
 	public Resources(){
-		icon = Utilities.loadImage("Resources/Graphics/HUD/icon.png");
-		tileset = Utilities.loadImage("Resources/Graphics/Tilesets/normalworld.png");
-
-		character = Utilities.loadImage("Resources/Graphics/Characters/p1_spritesheet.png");
-		test = new Sound("Resources/Audio/game_ready.wav");
+//		icon = Utilities.loadImage("Resources/Graphics/HUD/icon.png");
+//		tileset = Utilities.loadImage("Resources/Graphics/Tilesets/normalworld.png");
+//
+//		character = Utilities.loadImage("Resources/Graphics/Characters/p1_spritesheet.png");
+//		test = new Sound("Resources/Audio/game_ready.wav");
 		
 	}
 }
